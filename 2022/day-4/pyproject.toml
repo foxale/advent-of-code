@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "day-4"
+version = "0.1.0"
+description = ""
+authors = ["lis-pawel <lis.pawel@pl.pwc.com>"]
+readme = "README.md"
+packages = [{include = "day_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

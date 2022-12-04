@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "day-18"
+version = "0.1.0"
+description = "Advent of Code 2022, day 18"
+authors = ["lis-pawel <lis.pawel@pl.pwc.com>"]
+readme = "README.md"
+packages = [{include = "day_18"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.8"
+jupyterlab = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
